@@ -126,6 +126,10 @@
     padding-bottom: 10px;
 }
 
+.iframe-map{
+    border: 2px solid #fff;
+}
+
 /*** SECTION FOLLOW US ***/
 .consultation-main-social {
     grid-column: 1/-1;
@@ -198,7 +202,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    
 }
+
+
 
 .consultation-main-location-schedule {
     grid-row: 3;

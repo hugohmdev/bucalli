@@ -14,7 +14,8 @@
 
     --title: "Baskerville", serif;
     --text: "Inter", sans-serif;
-
+--imgsquareborder: 4px solid #ffffff;
+--imgsquareshadow: 2px 2px 5px 1px rgba(0,0,0,0.15);
 }
 
 html {

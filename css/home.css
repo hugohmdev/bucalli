@@ -205,10 +205,14 @@ a:hover img.default {
 display: flex;
 text-align: center;
 justify-content: center;
+padding-top: 40px;
 }
 
 .main-understand-col2 img{
     width: 100%;
+    
+    border: var(--imgsquareborder);
+    box-shadow: var(--imgsquareshadow);
 }
 
 /*** TESTIMONY ***/
@@ -216,7 +220,6 @@ justify-content: center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding-bottom: 20px;
-
     grid-row: 4;
 }
 
@@ -373,6 +376,11 @@ justify-content: center;
     padding-bottom: 20px;
 }
 
-
+.main-understand-col2 {
+display: flex;
+text-align: center;
+justify-content: center;
+padding-top: 10px;
+}
 
 }

@@ -69,6 +69,10 @@
     padding: 10px;
 }
 
+.xp-item-col1 img{
+    box-shadow: var(--imgsquareshadow);
+}
+
 .xp-item-col2 {
     text-align: left;
     padding-left: 20px;

@@ -83,6 +83,7 @@
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: var(--imgsquareshadow);
 }
 
 /** 2. us-kristel **/
@@ -90,7 +91,7 @@
 .us-kristel {
     display: grid;
     justify-content: center;
-    background: red;
+    background: var(--bggold);
 }
 
 /* nest_comment_start~.us-kristel-container {
@@ -111,6 +112,7 @@
     max-width: 1200px;
     justify-content: center;
     text-align: center;
+    padding: 30px 0;
 }
 
 .us-kristel-bio-col1 {
@@ -133,6 +135,11 @@
     justify-content: center;
 }
 
+.us-kristel-bio-col2 img {
+    border: var(--imgsquareborder);
+    box-shadow: var(--imgsquareshadow);
+}
+
 /** 3. us-main-confidence **/
 .us-main-confidence {
     display: grid;
@@ -140,6 +147,7 @@
     grid-row: 3;
     text-align: center;
     grid-template-rows: repeat(3, auto);
+    padding-top: 30px;
 }
 
 .us-main-confidence-h2 {
@@ -188,7 +196,7 @@
     }
 
     .us-about-title {
-        
+
         grid-row: 1;
         text-align: center;
         display: flex;
@@ -244,13 +252,12 @@
     .us-kristel-bio-container {
         display: flex;
         flex-wrap: wrap;
-       width: 100vw;
+        width: 100vw;
         height: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
         justify-content: center;
         text-align: center;
-        
+
     }
 
     .us-kristel-bio-col1 {
@@ -276,8 +283,8 @@
         justify-content: center;
     }
 
-    .us-kristel-bio-col2 img{
-        width: 50%;
+    .us-kristel-bio-col2 img {
+        width: 100%;
     }
 
     .kristel-row1-title,
@@ -294,11 +301,11 @@
         width: 100%;
     }
 
-.us-kristel-bio-col1-text{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    .us-kristel-bio-col1-text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
     /** 3. us-main-confidence **/
     .us-main-confidence {
@@ -313,16 +320,17 @@
     }
 
     .us-main-confidence-h2 {
-         display: flex;
+        display: flex;
         flex-wrap: wrap;
         width: 100%;
         grid-row: 1;
         grid-column: 1/-1;
         padding-left: 20px;
-    padding-right: 20px;    }
+        padding-right: 20px;
+    }
 
     .us-main-confidence-h3 {
-        
+
         grid-row: 2;
         grid-column: 1/-1;
     }
