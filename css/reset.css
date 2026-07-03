@@ -10,6 +10,7 @@
     --bgold: #a29e77;
     --bggray: #f2f2f2;
     --txtgray: #6b7073;
+    --bggold: #e8e7e0;
 
     --title: "Baskerville", serif;
     --text: "Inter", sans-serif;
@@ -87,13 +88,7 @@ p {
 
 }
 
-.hero-grid{
-    
-}
 
-.header-home-bg{
-    
-}
 
 /**************************************** NAV *********************/
 

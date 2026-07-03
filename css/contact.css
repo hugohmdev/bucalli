@@ -69,6 +69,7 @@
     text-align: center;
     grid-column: 1/-1;
     padding-bottom: 30px;
+    
 }
 
 .consultation-main-subtitle-h2 {
@@ -176,6 +177,9 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, auto);
     text-align: center;
+    background: var(--bggold);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .consultation-main-location-subtitle-h3 {

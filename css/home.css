@@ -150,6 +150,8 @@ a:hover img.default {
 .main-understand {
     display: grid;
     justify-content: center;
+    background: var(--bggold);
+    padding-bottom: 20px;
 }
 
 .main-understand-container {
@@ -220,19 +222,19 @@ justify-content: center;
 
 .main-testimony-title {
     padding-top: 30px;
-    grid-column: 4/-4;
+    grid-column: 1/-1;
     text-align: center;
 
 }
 
 .main-testimony-subtitle {
-    grid-column: 4/-4;
+    grid-column: 1/-1;
     text-align: center;
 }
 
 .main-testimony-text {
-    padding: 20px 0;
-    grid-column: 4/-4;
+    padding: 20px 20px;
+    grid-column: 1/-1;
 }
 
 .main-testimony-container {
@@ -278,6 +280,8 @@ justify-content: center;
     overflow: hidden;
     justify-content: center;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .home-hero-h1 {
